@@ -30,7 +30,7 @@ export default function SignUpPage() {
             name, // user display name
             image, // User image URL (optional) 
         });
-        // console.log({ data, error });
+        console.log({ data, error });
         if(!error){
             router.push('/')
         }
